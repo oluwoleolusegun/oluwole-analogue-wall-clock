@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oluwole Analogue Clock</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="main">
+    <div class="convas-container">
+      <canvas id="canvas" onclick="digital()">
+        Your browser does not support HTML5 canvas.
+      </canvas>
+    </div>
+    <div title="CLICK = ANALOG CLOCK, ESCAPE = EXIT MESSAGE" id="div1" onclick="analog()">
+      <div id="div1InnerDiv"></div>
+    </div>
+  </main>
+  <script src="analogueClock.js"></script>
+</body>
+</html>
